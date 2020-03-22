@@ -42,7 +42,7 @@ public class NacosConfigEndpointAutoConfiguration {
 	@ConditionalOnMissingBean
 	@ConditionalOnEnabledEndpoint
 	public NacosConfigEndpoint nacosEndpoint() {
-		//这是一个测试
+		//上的多少分
 		return new NacosConfigEndpoint();
 	}
 
