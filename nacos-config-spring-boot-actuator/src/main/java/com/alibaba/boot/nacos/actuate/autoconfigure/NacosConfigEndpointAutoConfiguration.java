@@ -34,8 +34,9 @@ import com.alibaba.boot.nacos.actuate.endpoint.NacosConfigEndpoint;
 public class NacosConfigEndpointAutoConfiguration {
 	/**
 	 * 这是一个测试项目
-     * 水电费费
-	 * @return
+     * 水电费费s试试
+     * 水电费水电费高分高分
+	 * @return 我觉得也是
 	 */
 	@Bean
 	@ConditionalOnMissingBean
