@@ -43,7 +43,7 @@ public class NacosConfigEndpointAutoConfiguration {
 	@ConditionalOnEnabledEndpoint
 	public NacosConfigEndpoint nacosEndpoint() {
 		//这是一个测试
-		//上的多少分多少分
+		//上的多少分多少分水电费
 		return new NacosConfigEndpoint();
 	}
 
