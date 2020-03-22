@@ -34,7 +34,7 @@ import com.alibaba.boot.nacos.actuate.endpoint.NacosConfigEndpoint;
 public class NacosConfigEndpointAutoConfiguration {
 	/**
 	 * 这是一个测试项目
-	 * @return
+	 * @return 我觉得也是
 	 */
 	@Bean
 	@ConditionalOnMissingBean
