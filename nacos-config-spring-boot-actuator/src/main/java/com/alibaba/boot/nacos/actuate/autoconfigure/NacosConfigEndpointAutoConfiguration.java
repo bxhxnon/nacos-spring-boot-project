@@ -32,11 +32,15 @@ import com.alibaba.boot.nacos.actuate.endpoint.NacosConfigEndpoint;
  */
 @Configuration
 public class NacosConfigEndpointAutoConfiguration {
-
+	/**
+	 * 这是一个测试项目
+	 * @return
+	 */
 	@Bean
 	@ConditionalOnMissingBean
 	@ConditionalOnEnabledEndpoint
 	public NacosConfigEndpoint nacosEndpoint() {
+
 		return new NacosConfigEndpoint();
 	}
 
